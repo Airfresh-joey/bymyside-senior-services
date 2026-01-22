@@ -236,7 +236,7 @@ export default function SafetyMobility() {
                   Free Safety Assessment
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6">
+              <Button asChild size="lg" className="bg-white/20 hover:bg-white/30 text-white border-2 border-white font-semibold text-lg px-8 py-6">
                 <a href="tel:+18005551234">Call (800) 555-1234</a>
               </Button>
             </div>
@@ -493,7 +493,7 @@ export default function SafetyMobility() {
             <Button asChild size="lg" className="bg-white hover:bg-slate-100 text-emerald-900 font-semibold text-lg px-10 py-6">
               <Link href="/contact">Schedule Free Assessment</Link>
             </Button>
-            <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-10 py-6">
+            <Button asChild size="lg" className="bg-white/20 hover:bg-white/30 text-white border-2 border-white font-semibold text-lg px-10 py-6">
               <a href="tel:+18005551234">
                 <Phone className="mr-2 h-5 w-5" />
                 (800) 555-1234

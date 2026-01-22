@@ -133,7 +133,7 @@ export default function HomePage() {
           <div
             className="absolute inset-0 bg-cover bg-top"
             style={{
-              backgroundImage: "url('https://images.unsplash.com/photo-1447005497901-b3e9ee359928?w=1920&q=80')"
+              backgroundImage: "url('https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80')"
             }}
           />
           {/* Lighter gradient overlay so image is visible */}

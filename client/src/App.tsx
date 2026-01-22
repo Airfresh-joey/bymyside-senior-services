@@ -2,6 +2,7 @@ import { Switch, Route } from "wouter";
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
 import Home from "@/pages/Home";
+import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Services from "@/pages/Services";
 import TechMonitoring from "@/pages/services/TechMonitoring";
@@ -33,6 +34,7 @@ function App() {
       <main className="flex-1">
         <Switch>
           <Route path="/" component={Home} />
+          <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
           <Route path="/services" component={Services} />
           <Route path="/services/tech-monitoring" component={TechMonitoring} />
