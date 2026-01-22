@@ -5,6 +5,7 @@ import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Contact from "@/pages/Contact";
 import Services from "@/pages/Services";
+import Resources from "@/pages/Resources";
 import TechMonitoring from "@/pages/services/TechMonitoring";
 import SafetyMobility from "@/pages/services/SafetyMobility";
 import Decluttering from "@/pages/services/Decluttering";
@@ -36,6 +37,7 @@ function App() {
           <Route path="/" component={Home} />
           <Route path="/about" component={About} />
           <Route path="/contact" component={Contact} />
+          <Route path="/resources" component={Resources} />
           <Route path="/services" component={Services} />
           <Route path="/services/tech-monitoring" component={TechMonitoring} />
           <Route path="/services/safety-mobility" component={SafetyMobility} />
