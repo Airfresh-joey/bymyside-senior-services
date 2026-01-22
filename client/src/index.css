@@ -1,0 +1,139 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* Senior-Friendly Color Palette - High Contrast, Calm, Trustworthy */
+  --background: 0 0% 100%;
+  --foreground: 220 20% 20%;
+
+  --card: 0 0% 100%;
+  --card-foreground: 220 20% 20%;
+
+  --popover: 0 0% 100%;
+  --popover-foreground: 220 20% 20%;
+
+  /* Primary: Deep Teal - Calm, Trustworthy, Professional */
+  --primary: 173 58% 39%;
+  --primary-foreground: 0 0% 100%;
+
+  /* Secondary: Warm Gray - Clean, Readable */
+  --secondary: 220 14% 96%;
+  --secondary-foreground: 220 20% 20%;
+
+  --muted: 220 14% 96%;
+  --muted-foreground: 220 10% 45%;
+
+  /* Accent: Warm Coral - Friendly, Visible CTAs */
+  --accent: 24 95% 53%;
+  --accent-foreground: 0 0% 100%;
+
+  --destructive: 0 84% 60%;
+  --destructive-foreground: 0 0% 98%;
+
+  --border: 220 13% 91%;
+  --input: 220 13% 91%;
+  --ring: 173 58% 39%;
+
+  --radius: 0.5rem;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 18px; /* Larger base for seniors */
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    line-height: 1.7;
+    font-weight: 400;
+    color: #1e293b; /* High contrast dark text */
+  }
+
+  /* All headings use clean sans-serif for readability */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-weight: 700;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    color: #0f172a; /* Very dark for contrast */
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  /* Larger, readable body text */
+  p, li, span {
+    font-size: 1.125rem;
+    line-height: 1.8;
+  }
+
+  /* High contrast focus states for accessibility */
+  a:focus-visible,
+  button:focus-visible,
+  input:focus-visible,
+  textarea:focus-visible,
+  select:focus-visible {
+    @apply outline-none ring-4 ring-teal-500 ring-offset-2 ring-offset-background;
+  }
+
+  /* Smooth transitions */
+  a, button {
+    @apply transition-colors duration-200;
+  }
+
+  /* Links should be clearly visible */
+  a {
+    color: #0f766e;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+
+  a:hover {
+    color: #0d9488;
+  }
+}
+
+@layer components {
+  /* Senior-friendly large buttons */
+  .btn-lg {
+    @apply px-8 py-4 text-lg font-semibold rounded-lg;
+  }
+
+  /* Card with subtle shadow */
+  .card-hover {
+    @apply transition-all duration-300 hover:shadow-lg hover:-translate-y-0.5;
+  }
+
+  /* Section padding - generous for readability */
+  .section-padding {
+    @apply py-16 md:py-20 lg:py-24;
+  }
+
+  /* Container with max width */
+  .container-custom {
+    @apply max-w-6xl mx-auto px-6 sm:px-8 lg:px-12;
+  }
+}
+
+@layer utilities {
+  /* Text balance for headings */
+  .text-balance {
+    text-wrap: balance;
+  }
+}

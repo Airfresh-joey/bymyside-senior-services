@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none">
+  <!-- House outline -->
+  <path d="M50 8L8 42V92H92V42L50 8Z" stroke="#2d4a6f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Roof peak -->
+  <path d="M5 45L50 5L95 45" stroke="#2d4a6f" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- Heart -->
+  <path d="M50 75C50 75 30 60 30 48C30 40 36 35 43 35C47 35 50 38 50 38C50 38 53 35 57 35C64 35 70 40 70 48C70 60 50 75 50 75Z" fill="#2d4a6f"/>
+</svg>
