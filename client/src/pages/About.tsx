@@ -122,7 +122,7 @@ export default function About() {
             </div>
             <div className="relative">
               <img
-                src="https://images.unsplash.com/photo-1516733968668-dbdce39c5f7b?w=600&h=500&fit=crop"
+                src="https://images.unsplash.com/photo-1556911220-bff31c812dba?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
                 alt="Family caring for senior"
                 className="rounded-2xl shadow-xl"
               />
